@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prin's Survey Form</title>
+    <link rel="stylesheet" href="Prin's Survey Form.css">
+</head>
+<body>
+    <h1 id="title">Your Most Favourite Sport Survey Form</h1><br>
+    <p id="description">What Kind of Sport do You Like the Most?</p>
+    <h2>(You can choose more than one choice. And please kindly fill in the details and number of sports that you like also.)</h2><br><br><br>
+
+    <form id="survey-form">
+        <label><input type="checkbox" name="sport" value="Baseball"> Baseball</label><br><br>
+        <label><input type="checkbox" name="sport" value="Basketball"> Basketball</label><br><br>
+        <label><input type="checkbox" name="sport" value="Cricket"> Cricket</label><br><br>
+        <label><input type="checkbox" name="sport" value="Football"> Football</label><br><br>
+        <label><input type="checkbox" name="sport" value="Golf"> Golf</label><br><br>
+        <label><input type="checkbox" name="sport" value="Hockey"> Hockey</label><br><br>
+        <label><input type="checkbox" name="sport" value="Rugby / American Football"> Rugby / American Football</label><br><br>
+        <label><input type="checkbox" name="sport" value="Table Tennis"> Table Tennis</label><br><br>
+        <label><input type="checkbox" name="sport" value="Tennis"> Tennis</label><br><br>
+        <label><input type="checkbox" name="sport" value="Volleyball"> Volleyball</label><br><br><br><br>
+
+        <select id="dropdown" name="Age">
+            <option value="Child">Child</option>
+            <option value="Teenage">Teenage</option>
+            <option value="Adult">Adult</option>
+        </select>
+
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br><br>
+
+        <label id="number-label">Number:</label>
+        <input id="number" name="number" type="number" min="0" max="100" placeholder="Number Kind of Sports" required><br><br><br>
+
+        <label id="name-label">Name:</label>
+        <input id="name" name="name" type="text" placeholder="Name" required>
+
+        <label id="email-label">Email:</label>
+        <input id="email" name="email" type="email" placeholder="Email" required>
+
+        <button id="submit" type="submit">Submit</button><br><br><br>
+
+        <textarea placeholder="Additional Comments"></textarea>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
